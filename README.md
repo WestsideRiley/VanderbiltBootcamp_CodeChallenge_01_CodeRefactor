@@ -1,7 +1,7 @@
 # VanderbiltBootcamp_CodeChallenge_01_CodeRefactor
 **Horiseon website was updated to clean up the HTML code and CSS stylesheet to be more simplified and better structured.  Updates to each are listed below:
 
--HTML
+<-- HTML -->
 
   -HTML file was restructured to make the sections of the document more defined and easier to visually separate.
   
@@ -17,7 +17,7 @@
   
   -Links were fixed
   
--CSS
+<-- CSS -->
 
   -Comments were incorporated into the stylesheet to layout the purpose of each section
   
