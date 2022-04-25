@@ -1,0 +1,152 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --leadgenerationcolor:#2589bd;
+    --descriptivepanelcolor: #0072bb;
+    --textcolor:#ffffff;
+    --websitebackground:#d9dcd6;
+}
+
+/*background color of the webpage*/
+body {
+    background-color:var(--websitebackground);
+}
+
+/* attributes that apply to the styling of the components of the header*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: var(--textcolor);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: var(--websitebackground);
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;   
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: var(--textcolor);
+    text-decoration: none;
+}
+
+/* attributes that apply to main banner image of the website*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*  applies to the descriptive panels in the main body of the website */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    max-height: 940px;
+    min-height: 940px;
+}
+
+.descriptive-panels {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: var(--descriptivepanelcolor);
+    color: var(--textcolor);
+}
+
+.descriptive-panels img {
+    max-height: 200px;
+}
+
+/*  applies to divs in the lead generation Section */
+.benefits {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    max-height: 940px;
+    min-height: 940px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--leadgenerationcolor);
+    border-radius: 0%;
+}
+
+/*  applies to subsections in the lead generation Section */
+.benefit-section {
+    margin-bottom: 50px;
+    color: var(--textcolor);
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+}
+
+.benefit-section h2 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.benefit-section img {
+   display:block; 
+    margin: 5px auto;
+    max-width: 140px;
+}
+
+/*  applies to the orientation of the images in the descriptive panels in the main body of the website */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*  applies to the headers in the descriptive panels in the main body of the website */
+.descriptive-panels h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*  Styling for the pieces of the footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+}
